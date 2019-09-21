@@ -5,8 +5,6 @@ import re
 import webbrowser
 import smtplib
 import requests
-from weather import Weather
-import math
 '''import pyttsx3
 engine = pyttsx3.init()
 engine.say("I will speak this text")
@@ -39,7 +37,7 @@ def myCommand():
 
     except sr.UnknownValueError:
         print('Your last command couldn\'t be heard')
-        command = myCommand();
+        command = myCommand()
 
     return command
 
@@ -53,3 +51,6 @@ talkToMe('I am ready for your command')
 
 while True:
     assistant(myCommand())
+    
+
+    
