@@ -12,8 +12,6 @@ engine = pyttsx3.init()
 engine.say("I will speak this text")
 engine.runAndWait()'''
 
-pl=[]
-dates=[]
 def talkToMe(audio):
 
     print(audio)
@@ -47,6 +45,7 @@ def myCommand():
 
 
 def assistant(command):
+    
     talkToMe(command)
 
 talkToMe('I am ready for your command')
