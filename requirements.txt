@@ -25,7 +25,7 @@ jmespath==0.9.4
 MarkupSafe==1.1.1
 msrest==0.6.10
 nexmo==2.4.0
-numpy==1.17.2
+numpy==1.22.0
 oauthlib==3.1.0
 opencage==1.2
 opencv-python==4.1.1.26
